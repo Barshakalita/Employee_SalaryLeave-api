@@ -16,7 +16,7 @@ connectToDatabase();
 const app=express();
 
 const corsOptions = {
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: "https://employee-salary-leave-frontend-y8r4.vercel.app/", // Your frontend URL
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"],
