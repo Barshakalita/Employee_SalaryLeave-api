@@ -1,6 +1,7 @@
 import express from 'express'
 import authMiddleware from '../middleware/authMiddleware.js'
-import { addEmployee, upload, getEmployees, getEmployee, updateEmployee, fetchEmployeesByDepId} from '../controllers/employeeController.js';
+import { addEmployee, getEmployees, getEmployee, updateEmployee, fetchEmployeesByDepId} from '../controllers/employeeController.js';
+import upload from '../utils/cloudinaryMulter.js';
 
 const router = express.Router()
 
